@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(157, 241, 232);
+}
+.title{
+    text-align: center;
+    color: rgb(28, 175, 9);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.generalForm{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+
+.button {
+    background-color: greenyellow;
+    border: none;
+    font-family: fantasy;
+    border: 1px solid black;
+    color: rgb(98, 9, 64);
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 24px;
+    border-radius: 40%;
+    cursor: pointer; 
+}
+.button:hover {
+    
+    background-color: rgb(129, 204, 16);
+}
+.input{
+    background-color:rgb(245, 232, 208);
+    width: 250px;
+    height: 25px;
+    border-radius: 12%;
+    border: 1px solid yellowgreen;
+}

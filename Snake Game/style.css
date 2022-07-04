@@ -1,0 +1,35 @@
+#canvas{
+    
+    border: 3px solid rgb(8, 64, 2);
+    border-radius: 3%;
+}
+
+.title{
+    
+    text-align: center;
+    color: rgb(74, 171, 224);
+    font-family: fantasy;
+    text-transform: uppercase;
+    margin: 0;
+  
+}
+#point {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-family: monospace;
+    margin: 0;
+
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.score{
+    background-color: rgb(161, 69, 15);
+    border: 2px solid rgb(0, 0, 0);
+    width: 250px;
+    height: 80px;
+    border-radius:40% ;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="menuStyle.css" />
+    <script src="snake.js"   ></script>
+    <script>
+      
+    </script>
+    <title>Menu</title>
+  </head>
+  <body>
+    <div>
+      <h1 class="title">BEST SNAKE GAME EVER</h1>
+      <div class="generalForm">
+        <h1>Select Your Board Size and Snake Speed</h1>
+        <form id="form1">
+          <label for="blokSize">Block Size Number(Max : 50):</label><br />
+          <input
+            class="input"
+            type="number"
+            id="bSize"
+            name="blokSize"
+            value="20";
+          />
+          <br />
+          <label for="width">Board Row(Max : 50):</label><br />
+          <input
+            class="input"
+            type="number"
+            id="width"
+            name="width"
+            value="20";
+          /><br />
+          <label for="height">Board Column(Max : 50):</label><br />
+          <input
+            class="input"
+            type="number"
+            id="height"
+            name="height"
+            value="20";
+           
+          />
+          <br />
+          <label for="snakeSpeed">Snake Speed(below 20 is suggested):</label><br />
+          <input
+            class="input"
+            type="number"
+            id="snakeSpeed"
+            name="height"
+            value="10";
+          />
+          <br />
+          <br />
+        </form>
+      </div>
+
+      <div class="generalForm"> 
+        <h1>Select Your Snake:</h1>
+        <form id="form2" >
+           
+          <input type="radio" id="orangeS" name="snake" value="0"/ checked="checked""">  
+          <label for="orangeS"> <img src="./media/orange.png" alt="" /> </label><br />
+           
+          <input type="radio" id="purpleS" name="snake" value="1"/>  
+          <label for="css"><img src="./media/purple.png" alt="" /></label><br />
+           
+          <input type="radio" id="blueS" name="snake"  value="2"/>
+            <label for="javascript"><img src="./media/blue.png" alt="" /></label
+          ><br /><br />
+        </form>
+      </div>
+
+      <div class="generalForm"> 
+        <h1>Wanna pass into the walls?</h1>
+        <form id="form3" >
+           
+          <input type="radio" id="wy" name="snake" value="0"/ checked="checked""">  
+          <label for="orangeS"> yes </label><br />
+           
+          <input type="radio" id="en" name="snake" value="1"/>  
+          <label for="css">no</label><br />
+           
+          
+        </form>
+      </div>
+
+      <div style="text-align: center">
+        <button class="button" onclick="start()">START</button>
+      </div>
+    </div>
+  </body>
+</html>

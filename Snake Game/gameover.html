@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Over</title>
+    
+    <script>
+      function restart() {
+        location.replace("./menu.html");
+      }
+    </script>
+    <style>
+      h1,
+      h2,
+      h3 {
+        text-align: center;
+      }
+      h1 {
+        font-size: 50px;
+        font-weight: 300;
+        font-family: monospace;
+        color: rgb(218, 108, 34);
+      }
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        height: 300px;
+      }
+      button {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(70, 184, 229);
+        font-family: fantasy;
+        border: 1px solid black;
+        color: rgb(213, 213, 213);
+        padding: 15px 32px;
+        text-decoration: none;
+        font-size: 24px;
+        border-radius: 40%;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: rgb(23, 144, 193);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>NIHIHIHIHAA</h1>
+
+    <img src="./media/nihihiha.gif" alt="" />
+
+    <h2 style="color: rgb(28, 142, 28)">YOU ATE YOUR OWN TAIL</h2>
+    <H2>OR</H2>
+    <h2 style="color: rgb(28, 142, 28)">YOU HIT YOUR HEAD TO THE WALL</h2>
+    <h2 style="color: rgb(28, 142, 28)">BAAAAKAAA</h2>
+    <!-- <h3 id="fScore">Your Score is:300</h3> -->
+    <script  src="snake.js" ></script>
+    <button onclick="restart()">Wanna Try Again?</button>
+  </body>
+</html>
