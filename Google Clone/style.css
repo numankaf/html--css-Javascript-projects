@@ -1,0 +1,78 @@
+nav div{
+    padding: 6px;
+    margin: 4px;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    max-height: 100vh;
+    font-family: arial, sans-serif;
+    font-size: 81.25%;
+     color: rgba(0, 0, 0, 0.70);
+     overflow: hidden;
+    margin: 0;
+   
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav-link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.nav-img:hover {
+    border-radius: 50%;
+    background-color:rgba(0, 0, 0, 0.10) ;
+}
+input{
+    all: unset;
+    color:black;
+    padding-top: 4px;
+    padding-left: 4px;
+
+}
+.search-bar:hover{
+    border: 2px solid rgba(0, 0, 0, 0.10) !important;
+    
+}
+button{
+    color :rgba(0, 0, 0, 0.70);
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    height: 36px;;
+}
+
+button:hover{
+    border: 1px solid rgba(0, 0, 0, 0.40);
+}
+.g-offer:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+footer{
+    position:absolute;
+    bottom: 0px;
+    padding-left: 15px;
+    background-color: #f2f2f2;
+    font-size: 15px;
+    width: 100%;
+    
+    
+}
+
+footer div{
+    
+    padding: 8px;
+    margin: 0;
+}
